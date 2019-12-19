@@ -17,25 +17,21 @@ export default class OpenItem extends Component {
                     <Col className="name">
                         <div className="inner-card">
 
-                            <h3>{this.props.photo_info.name}</h3>
+                            <p>{this.props.photo_info.name}</p>
                         </div>
                     </Col>
                     <Col>
-                        {/* <Figure>
-                            <Figure.Image src={this.props.photo_info.imgUrl} width={171} height={180} />
-
-                        </Figure> */}
-                        <ImageComponent imgUrl={this.props.photo_info.imgUrl} />
+                        <ImageComponent imgUrl={this.props.photo_info.imgUrl} user={this.props.photo_info.name}/>
                     </Col>
                     <Col>
                         <div className="inner-card">
 
-                            <h3>{this.props.photo_info.status}</h3>
+                            <p>{this.props.photo_info.status}</p>
                         </div>
                     </Col>
                     <Col>
                         <div className="inner-card">
-                            <h3>${this.props.photo_info.price}</h3>
+                            <p>${this.props.photo_info.price}</p>
                         </div>
                     </Col>
                     <Col>

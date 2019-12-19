@@ -14,7 +14,8 @@ export default class OpenItem extends Component {
             price: '',
             soldName: '',
             soldPrice: '',
-            alert: false
+            alert: false, 
+            salesBtn: ''
         }
     }
     cancelSale(event) {
@@ -36,9 +37,17 @@ export default class OpenItem extends Component {
         }
     }
     confirmSale(event) {
-            // console log the price and name, 
-            console.log(this.state.soldPrice)
-            console.log(this.state.soldName)
+        // console log the price and name, 
+        console.log(this.state.soldPrice)
+        console.log(this.state.soldName)
+    }
+    setSales(event){
+        if (this.state.price) {
+            
+            this.setState({price:''})
+        }else{
+            this.setState({price:this.props.photo_info.price})
+        }
     }
     render() {
         return (
@@ -46,20 +55,19 @@ export default class OpenItem extends Component {
                 <Row>
                     <Col className="name">
                         <div className="inner-card">
-                            <h3>{this.props.photo_info.name}</h3>
-
+                            <p>{this.props.photo_info.name}</p>
                         </div>
                     </Col>
                     <Col>
-                        <ImageComponent imgUrl={this.props.photo_info.imgUrl} />
+                        <ImageComponent imgUrl={this.props.photo_info.imgUrl} user={this.props.photo_info.name}/>
                     </Col>
                     <Col>
-                    <div className="inner-card">
+                        <div className="inner-card">
 
-                        <h3>
-                            ${this.props.photo_info.price}
-                        </h3>
-                    </div>
+                            <p>
+                                ${this.props.photo_info.price}
+                            </p>
+                        </div>
                     </Col>
                     <Col>
                         <div className='inner-card'>
@@ -76,7 +84,7 @@ export default class OpenItem extends Component {
                     </Col>
                     <Col>
                         <div className='inner-card'>
-
+                            {/* if there is nothing in the price it won't display the dollar sign in front of the input box */}
                             {this.state.price ? '$' : ' '}
                             {/* same logic as the name, except this input is set to a number */}
                             <input
@@ -86,14 +94,16 @@ export default class OpenItem extends Component {
                                 value={this.state.price}
                                 onChange={(e) => this.setState({ price: e.target.value })}
                             />
+                            <br />
+                            <button className="btn btn-secondary btn-sm" variant="secondary" onClick={() => { this.setSales() }}>{this.state.price ? 'Clear' : 'Sales Price'}</button>
                         </div>
                     </Col>
                     <Col>
-                    <div className="inner-card">
+                        <div className="inner-card">
 
-                        {/* Submit the values to be checked  */}
-                        <Button variant="secondary" onClick={() => { this.onInputSubmit() }}>Accept</Button>
-                    </div>
+                            {/* Submit the values to be checked  */}
+                            <Button variant="secondary" onClick={() => { this.onInputSubmit() }}>Accept</Button>
+                        </div>
                     </Col>
                 </Row>
                 <Alert variant="success" show={this.state.alert}>
@@ -102,7 +112,7 @@ export default class OpenItem extends Component {
                     </Alert.Heading>
                     {/* Dismiss and take the user to the sold page */}
 
-                    <Link to="/Sold" className="btn" onClick={() => {this.confirmSale()}}>Accept</Link>
+                    <Link to="/Sold" className="btn" onClick={() => { this.confirmSale() }}>Accept</Link>
                     <Button variant="secondary" onClick={() => { this.cancelSale() }}>Cancel</Button>
 
 

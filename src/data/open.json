@@ -1,48 +1,47 @@
 {
-    "open": [
+    "open": [{
+            "name": "Mike Smith",
+            "imgUrl": "images/iceland-0981.jpg",
+            "status": "Open",
+            "price": "12.99",
+            "transaction": {}
+        },
         {
-        "name": "Mike Smith",
-        "imgUrl": "images/iceland-0981.jpg",
-        "status": "Open",
-        "price": "10.00",
-        "transaction": {}
-    },
+            "name": "Taylor Knight",
+            "imgUrl": "images/castle-011.jpg",
+            "status": "Open",
+            "price": "8.97",
+            "transaction": {}
+        },
         {
-        "name": "Clark Kent",
-        "imgUrl": "images/castle-011.jpg",
-        "status": "Open",
-        "price": "90.00",
-        "transaction": {}
-    },
+            "name": "Robin French",
+            "imgUrl": "images/burrito-boyz.jpg",
+            "status": "Open",
+            "price": "48.99",
+            "transaction": {}
+        },
         {
-        "name": "Clark Kent",
-        "imgUrl": "images/burrito-boyz.jpg",
-        "status": "Open",
-        "price": "90.00",
-        "transaction": {}
-    },
+            "name": "Scout Hill",
+            "imgUrl": "images/falls-1898.jpg",
+            "status": "Open",
+            "price": "7.99",
+            "transaction": {}
+        },
         {
-        "name": "Clark Kent",
-        "imgUrl": "images/falls-1898.jpg",
-        "status": "Open",
-        "price": "90.00",
-        "transaction": {}
-    },
+            "name": "Willoughby Myers",
+            "imgUrl": "images/night-sky-01.jpg",
+            "status": "Open",
+            "price": "42.99",
+            "transaction": {}
+        },
         {
-        "name": "Clark Kent",
-        "imgUrl": "images/night-sky-01.jpg",
-        "status": "Open",
-        "price": "90.00",
-        "transaction": {}
-    },
-        {
-        "name": "Clark Kent",
-        "imgUrl": "images/room-01.jpg",
-        "status": "Open",
-        "price": "90.00",
-        "transaction": {}
-    }
+            "name": "Aaron Newman",
+            "imgUrl": "images/room-01.jpg",
+            "status": "Open",
+            "price": "17.00",
+            "transaction": {}
+        }
 
-]
+    ]
 
 }

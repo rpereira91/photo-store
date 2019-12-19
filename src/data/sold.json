@@ -3,50 +3,50 @@
             "name": "Mike Smith",
             "imgUrl": "images/iceland-0981.jpg",
             "status": "Sold",
-            "price": "10.00",
+            "price": "12.99",
             "transaction": {
                 "buyerName": "Kyle",
-                "salePrice": "9.00"
+                "salePrice": "9.99"
             }
         },
         {
-            "name": "Clark Kent",
+            "name": "Taylor Knight",
             "imgUrl": "images/castle-011.jpg",
             "status": "Sold",
-            "price": "90.00",
+            "price": "8.97",
             "transaction": {
                 "buyerName": "Mike",
-                "salePrice": "50.00"
+                "salePrice": "5.00"
             }
         },
         {
-            "name": "Clark Kent",
+            "name": "Robin French",
             "imgUrl": "images/burrito-boyz.jpg",
             "status": "Sold",
-            "price": "90.00",
+            "price": "48.99",
             "transaction": {
-                "buyerName": "Mike",
-                "salePrice": "50.00"
+                "buyerName": "Taylor",
+                "salePrice": "45.00"
             }
         },
         {
-            "name": "Clark Kent",
+            "name": "Scout Hill",
             "imgUrl": "images/falls-1898.jpg",
             "status": "Sold",
-            "price": "90.00",
+            "price": "7.99",
             "transaction": {
-                "buyerName": "Mike",
-                "salePrice": "50.00"
+                "buyerName": "Jamie",
+                "salePrice": "6.00"
             }
         },
         {
-            "name": "Clark Kent",
+            "name": "Willoughby Myers",
             "imgUrl": "images/iceland-1567.jpg",
             "status": "Sold",
-            "price": "90.00",
+            "price": "42.99",
             "transaction": {
-                "buyerName": "Mike",
-                "salePrice": "50.00"
+                "buyerName": "Robin",
+                "salePrice": "25.00"
             }
         }
 

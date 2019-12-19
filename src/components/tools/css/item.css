@@ -20,12 +20,14 @@
     font-family: Verdana, Geneva, sans-serif;
     justify-content: center;
     color: #edf5e0;
+    font-size: large;
 }
 .item-card .name{
-    max-width: 100px;
+    max-width: 150px;
+    
 }
 .item-card .price{
-    max-width: 50px;
+    width: 70px;
     position: flex;
 }
 
