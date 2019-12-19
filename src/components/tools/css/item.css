@@ -1,0 +1,40 @@
+.activity-card,.inner-card{
+    padding: 20% 0;
+
+}
+.inner-card input{
+    line-height: 20px;
+}
+.item-card{
+    background-color: #5cdb95;
+    padding: 10px;
+    margin: 5px;
+    width: "100%";
+    border-color:  rgba(3, 90, 61, 0.63);
+    border-radius: 15px;
+    text-align: center;
+    vertical-align:middle;
+}
+.item-card {
+    align-content: center;
+    font-family: Verdana, Geneva, sans-serif;
+    justify-content: center;
+    color: #edf5e0;
+}
+.item-card .name{
+    max-width: 100px;
+}
+.item-card .price{
+    max-width: 50px;
+    position: flex;
+}
+
+/* Remove arrows for the number input */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance:textfield;
+}

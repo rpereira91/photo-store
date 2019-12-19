@@ -1,0 +1,28 @@
+
+.header {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.header ul {
+    background-color: #05396b;
+    padding: 0;
+}
+
+.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+
+.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+.active {
+    background-color: rgb(0, 16, 29);
+}

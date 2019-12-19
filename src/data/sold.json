@@ -1,0 +1,55 @@
+{
+    "sold": [{
+            "name": "Mike Smith",
+            "imgUrl": "images/iceland-0981.jpg",
+            "status": "Sold",
+            "price": "10.00",
+            "transaction": {
+                "buyerName": "Kyle",
+                "salePrice": "9.00"
+            }
+        },
+        {
+            "name": "Clark Kent",
+            "imgUrl": "images/castle-011.jpg",
+            "status": "Sold",
+            "price": "90.00",
+            "transaction": {
+                "buyerName": "Mike",
+                "salePrice": "50.00"
+            }
+        },
+        {
+            "name": "Clark Kent",
+            "imgUrl": "images/burrito-boyz.jpg",
+            "status": "Sold",
+            "price": "90.00",
+            "transaction": {
+                "buyerName": "Mike",
+                "salePrice": "50.00"
+            }
+        },
+        {
+            "name": "Clark Kent",
+            "imgUrl": "images/falls-1898.jpg",
+            "status": "Sold",
+            "price": "90.00",
+            "transaction": {
+                "buyerName": "Mike",
+                "salePrice": "50.00"
+            }
+        },
+        {
+            "name": "Clark Kent",
+            "imgUrl": "images/iceland-1567.jpg",
+            "status": "Sold",
+            "price": "90.00",
+            "transaction": {
+                "buyerName": "Mike",
+                "salePrice": "50.00"
+            }
+        }
+
+    ]
+
+}
