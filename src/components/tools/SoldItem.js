@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// boot strap components used 
 import { Col, Row } from 'react-bootstrap';
 import ImageComponent from './ImageComponent';
 

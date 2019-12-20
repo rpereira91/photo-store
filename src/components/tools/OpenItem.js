@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// boot strap components used 
 import { Col, Row } from 'react-bootstrap';
 import './css/item.css';
 import ImageComponent from './ImageComponent';
@@ -6,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 export default class OpenItem extends Component {
 
-
+    // called whenever the user presses the accepct button 
     acceptPhoto(event){
         console.log("Adding " + this.props.photo_info.name + "'s photo");
     }

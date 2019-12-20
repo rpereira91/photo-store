@@ -6,6 +6,7 @@ import { Container } from 'react-bootstrap';
 
 export default class Open extends Component {
   render() {
+    // load up the open art data and map each one out to the open item component passing the photo info as the props
     return (
       <div className="page-body">
         <Container>

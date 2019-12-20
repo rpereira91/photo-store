@@ -9,9 +9,11 @@ class App extends Component {
   render() {
     return (
       <div>
-
+        {/* Load the banner component with the snapwire logo */}
         <Banner />
+        {/* Load the nav bar containing all the routes */}
         <Navbar />
+        {/* Load the footer  */}
         <Footer />
       </div>
     );

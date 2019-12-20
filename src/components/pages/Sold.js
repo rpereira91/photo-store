@@ -7,12 +7,14 @@ import MediaQuery from 'react-responsive';
 export default class Sold extends Component {
   render() {
     return (
+      // load up the sold art data and map each one out to the sold item component passing the photo info as the props
+
       <div className="page-body">
         <Container>
 
           <h2>Sold Photos</h2>
-          <br/>
-          {/* If the user is on a mobile device the media query won't display the headings */}
+          <br />
+          {/* The media query won't display the headings on smaller devices*/}
 
           <MediaQuery query="(min-device-width: 1224px)">
             <div className="page-body">

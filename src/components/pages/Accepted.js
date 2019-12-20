@@ -5,7 +5,7 @@ import AcceptedItem from '../tools/AcceptItem';
 
 export default class Accepted extends Component {
   render() {
-    // const alert = useAlert();
+    // load up the accepted art data and map each one to a new accepted item component passing it the photo info as one of the props
     return (
       <div className="page-body">
         <Container>
