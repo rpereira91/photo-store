@@ -11,7 +11,7 @@ export default class OpenItem extends Component {
         return (
             <div className="item-card">
                 <Row>
-                    <Col className="name">
+                    <Col>
                         <div className="inner-card">
                             <p>{this.props.photo_info.name}</p>
                         </div>
@@ -27,7 +27,7 @@ export default class OpenItem extends Component {
                         <ImageComponent imgUrl={this.props.photo_info.imgUrl} user={this.props.photo_info.name} />
 
                     </Col>
-                    <Col className="name">
+                    <Col>
                         <div className="inner-card">
                             <p>{this.props.photo_info.transaction.buyerName}</p>
                         </div>

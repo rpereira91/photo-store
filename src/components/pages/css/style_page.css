@@ -7,3 +7,7 @@
     margin-top: -16px;
     margin-bottom: -2px;
 }
+.page-body h2{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', Monaco, monospace;
+}

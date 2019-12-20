@@ -15,9 +15,8 @@ export default class OpenItem extends Component {
         return (
             <div className="item-card">
                 <Row>
-                    <Col className="name">
+                    <Col>
                         <div className="inner-card">
-
                             <p>{this.props.photo_info.name}</p>
                         </div>
                     </Col>

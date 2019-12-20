@@ -9,14 +9,12 @@ export default class Sold extends Component {
     return (
       // load up the sold art data and map each one out to the sold item component passing the photo info as the props
 
-      <div className="page-body">
         <Container>
-
           <h2>Sold Photos</h2>
           <br />
           {/* The media query won't display the headings on smaller devices*/}
 
-          <MediaQuery query="(min-device-width: 1224px)">
+          <MediaQuery query="(min-device-width: 1024px)">
             <div className="page-body">
               <Row>
                 <Col>
@@ -42,7 +40,6 @@ export default class Sold extends Component {
             <SoldItem photo_info={art} />
           )}
         </Container>
-      </div>
     );
   }
 }
